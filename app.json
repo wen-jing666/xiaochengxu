@@ -1,0 +1,21 @@
+
+{
+  "pages": [
+    "pages/index/index",
+    "pages/find/find",
+    "pages/release/release",
+    "pages/detail/detail",
+    "pages/copy/copy",
+    "pages/lookinto/lookinto",
+    "pages/shopping/shopping",
+    "pages/my/my"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#413d3e",
+    "navigationBarTitleText": "斯谷好早餐",
+    "navigationBarTextStyle": "#ffffff"
+  }
+}
+
+

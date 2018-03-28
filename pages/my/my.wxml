@@ -1,0 +1,39 @@
+<view class='content' style='background-image:url({{src}});'>
+  <view class='about' style='background-image:url({{url}});'>
+      <view class='head-box'>
+        <view class='touxiang'>
+            <image src='{{img}}'></image>
+        </view>
+      </view>
+      <text>{{name}}</text>
+      <view class='qianming'>
+      <text></text>
+      </view>
+
+  </view>
+</view>
+
+
+
+
+
+<view class="footer">
+  <view>
+    <navigator url="/pages/index/index" open-type="redirect">
+      <image src="{{images}}/img/icon_tlt1.png" mode="aspectFill"></image>
+      <text>首页</text>
+    </navigator>
+  </view>
+  <view>
+    <navigator url="/pages/shopping/shopping" open-type="redirect">
+      <image src="{{images}}/img/icon_tlt3.png" mode="aspectFill"></image>
+      <text>购物</text>
+    </navigator>
+  </view>
+  <view class="active">
+    <navigator url="/pages/my/my" open-type="redirect">
+      <image src="{{images}}/img/icon_tlt4_1.png" mode="aspectFill"></image>
+      <text>我的</text>
+    </navigator>
+  </view>
+</view>

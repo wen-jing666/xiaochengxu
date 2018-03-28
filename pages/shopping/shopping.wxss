@@ -1,0 +1,53 @@
+
+.shopping-title{
+  width:600rpx;
+  height: auto;
+  color:black;
+  margin-left:40rpx;
+  margin-top:20rpx;
+}
+.shopping-jg{
+  color:red;
+  font-size:48rpx;
+}
+delete{
+  color:darkgray;
+  text-decoration:line-through;
+  font-size: 24rpx;
+}
+.shopping-buy{
+  background:#5b5b5b;
+  width:160rpx;
+  height:50rpx;
+  font-size: 24rpx;
+  color:#fff;
+  text-align: center;
+  line-height: 50rpx;
+  margin-top:20rpx;
+ 
+}
+.scroll-view_H{
+  height:auto;
+  white-space: nowrap;
+  display: flex;
+  margin-top:140rpx;
+ 
+}
+::-webkit-scrollbar{
+  width:0;
+  height: 0;
+  color:transparent;
+}
+.scroll-view-item_H{
+  width:600rpx;
+  height:auto;
+  margin-left: 100rpx;
+  display: inline-block;
+
+}
+.slide-image{
+  width:100%;
+  height:600rpx
+}
+
+

@@ -1,0 +1,25 @@
+<view class="release-input">
+  <input type='text' placeholder="输入标题..." value='{{title}}' bindinput='tjtlt'></input>
+</view>
+
+<view class="release-text">
+  <textarea placeholder="输入正文内容..." value='{{content}}' bindinput='tjcont'></textarea>
+</view>
+
+<view class="release-upload clearfix">
+  <!-- <view wx:if="{{tempFilePaths != ''}}" wx:for="{{tempFilePaths}}">
+    <image src="{{item}}" mode="aspectFit"></image>
+  </view> -->
+  <view wx:if="{{savedFilePath != ''}}">
+    <image src="{{savedFilePath}}" mode="aspectFit"></image>
+  </view>
+  <view bindtap="chooseimage">
+    <image src="{{images}}/img/upload.jpg" mode="aspectFit"></image>
+  </view>
+</view>
+
+<view class="release-input">
+  <input type='text' placeholder="去哪找..." value='{{copyfrom}}' bindinput='ticopy'></input>
+</view>
+
+<view class="release-btn" bindtap='releaseBtn'>发布</view>

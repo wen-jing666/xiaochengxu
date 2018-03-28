@@ -1,0 +1,134 @@
+@import "../../plugin/wxParse/wxParse.wxss";
+
+.clearfix {
+  overflow: hidden;
+  zoom: 1;
+}
+.copy{
+  position: relative;
+  width: 750rpx;
+}
+.copy-header{
+  width: 750rpx;
+  height: 376rpx;
+}
+.copy-header image{
+  width: 100%;
+  height: 100%;
+}
+.copy-content{
+  position: relative;
+  padding: 59rpx 0 0 0;
+  margin-bottom:7rpx; 
+  width:100%;
+  height: 60rpx;
+}
+.copy-summer{
+  width:100%;
+  line-height: 50rpx;
+  font-size: 30rpx;
+  color:#000;
+  text-align: center;
+}
+.copy-transverse{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -23.5rpx;
+  width: 47rpx;
+  height: 4rpx;
+  border-radius: 4rpx;
+  background: #cecece;
+}
+.copy-tran{
+  margin-bottom:10rpx; 
+  display:inline-block;
+  width: 53rpx;
+  height: 4rpx;
+  background: #7c7c7c;
+}
+.copy-Comefrom{
+  text-align: center;
+  font-size: 24rpx;
+  color:#7c7c7c;
+  margin-bottom:68rpx; 
+}
+.copy-Frenchchildren{
+  text-align: center;
+}
+.copy-tringle{
+  margin: 0 auto;
+  width: 159rpx;
+  height: 130rpx;
+}
+.copy-tringle image{
+  width: 100%;
+  height: 100%;
+}
+.copy-French{
+  margin: 13rpx 0 79rpx 0; 
+  letter-spacing:20rpx;
+  font-size: 24rpx;
+  color:#7c7c7c;
+}
+
+.copy-point{
+  margin: 0 auto;
+  width: 109rpx;
+}
+.copy-point text{
+  display: inline-block;
+  width: 23rpx;
+  height: 23rpx;
+  border-radius: 12rpx;
+  background: #0089ff;
+}
+.copy-point text:nth-of-type(2){
+  margin: 0 20rpx 0 20rpx;
+  background: #b0b0b0;
+}
+.copy-point text:nth-of-type(3){
+  background: #d12438;
+}
+.copy-footer-text{
+  padding:0 32rpx 0 32rpx;
+  line-height: 57rpx;
+  font-size: 24rpx;
+  color:#5e5e5e;
+}
+.lookinto-footer2 {
+  position: relative;
+  padding-top: 69rpx;
+  height: 129rpx;
+}
+
+.lookinto-footer-end {
+  font-size: 19rpx;
+  color: #000;
+  text-align: center;
+}
+
+.lookinto-footer-home {
+  position: absolute;
+  right: 55rpx;
+  bottom: 59rpx;
+  width: 54rpx;
+  height: 73rpx;
+  text-align: center;
+}
+
+.lookinto-footer-vote {
+  margin-bottom: 13rpx;
+  width: 44rpx;
+  height: 45rpx;
+}
+
+.lookinto-footer-vote image {
+  width: 100%;
+  height: 100%;
+}
+
+.lookinto-footer-home-vote {
+  font-size: 14rpx;
+  color: #000;
+}

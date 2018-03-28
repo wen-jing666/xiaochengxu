@@ -1,0 +1,65 @@
+<view class="lookinto-content">
+  <view class="lookinto-header-soulgood">
+    <image src="{{images}}/img/WechatIMG28.jpg"></image>
+  </view>
+
+  <view class="lookinto-GroupCP">
+    <view>谁是最佳cp战,已打响</view>
+    <view class="lookinto-GroupCP-tringle">
+      <image src="{{images}}/img/tringle_03.jpg"></image>
+    </view>
+  </view>
+
+  <view class="lookinto-view-screen">
+    <video src="{{videourl}}" controls="true" poster='1'></video>
+  </view>
+
+  <view class="lookinto-version">
+    <text>视频中安慕希和金典为追求斯谷，\n 可谓用尽了浑身解数，\n<text class="lookinto-version-color">点击下方，\n </text> 投票站队，\n 最终谁才是斯谷的最佳CP?\n 由你决定！ </text>
+  </view>
+
+  <view class="lookinto-pk clearfix">
+    <view class="lookinto-pk-left">
+      <view class="lookinto-pk-left-jd">
+        <image src="{{images}}/img/jindian.jpg"></image>
+      </view>
+      <view class="lookinto-vote" data-id="20" data-cs="{{cs}}" bindtap='voteBtn'>点击投票</view>
+    </view>
+    <view class="lookinto-pk-center">
+      <image src="{{images}}/img/pk_03.jpg"></image>
+    </view>
+    <view class="lookinto-pk-right">
+      <view class="lookinto-pk-right-amx">
+        <image src="{{images}}/img/anmuxi.jpg"></image>
+      </view>
+      <view class="lookinto-vote" data-id="10" data-cs="{{cs}}" bindtap='voteBtn'>点击投票</view>
+    </view>
+  </view>
+
+  <view class="look-nnimg">
+    <image src="https://sigu.59chuang.com/img/votepa.jpg" mode='aspectFill'></image>
+    <view class="look-nn-text">冲泡牛奶，无需等待、半脆半韧、醇甜爽滑</view>
+    <image src="https://sigu.59chuang.com/img/votepb.jpg" mode='aspectFill'></image>
+    <view class="look-nn-text">淋上酸奶、酸酸甜甜、细腻稠滑、清脆香甜</view>
+  </view>
+
+  <view class="lookinto-footer">
+    <text>获胜方幸运粉丝，\n 将有机会获得斯谷全年福利和斯</text>
+    <text class="lookinto-footer-color">最佳CP奖 </text>
+    <text>！</text>
+  </view>
+
+  <view class="lookinto-footer2">
+    <view class="lookinto-footer-end">...END...</view>
+
+    <view class="lookinto-footer-home">
+      <navigator url="/pages/index/index" open-type="reLaunch">
+        <view class="lookinto-footer-vote">
+          <image src="{{images}}/img/vote_03.jpg"></image>
+        </view>
+        <view class="lookinto-footer-home-vote">回首页</view>
+      </navigator>
+    </view>
+  </view>
+
+</view>

@@ -1,0 +1,39 @@
+<scroll-view class="scroll-view_H" scroll-x   >
+<block wx:for="{{imgUrls}}">
+    <view  class="scroll-view-item_H">
+      <image src="{{item}}" class="slide-image"/>
+      <view class="shopping-title">
+      <view>
+        <view>斯谷即时谷物320g</view>
+        <view class='shopping-jg'>￥22.50<delete>￥45</delete></view>
+      </view>
+      <navigator class='shopping-buy'>立即购买</navigator>
+    </view>
+    </view>
+</block>
+</scroll-view>
+
+<view class="footer">
+  <view>
+    <navigator url="/pages/index/index" open-type="redirect">
+      <image src="{{images}}/img/icon_tlt1.png" mode="aspectFill"></image>
+      <text>首页</text>
+    </navigator>
+  </view>
+  <view class="active">
+    <image src="{{images}}/img/icon_tlt2_1.png" mode="aspectFill"></image>
+    <text>发现</text>
+  </view>
+  <view>
+    <navigator url="/pages/shopping/shopping" open-type="redirect">
+      <image src="{{images}}/img/icon_tlt3.png" mode="aspectFill"></image>
+      <text>购物</text>
+    </navigator>
+  </view>
+  <view>
+    <navigator url="/pages/my/my" open-type="redirect">
+      <image src="{{images}}/img/icon_tlt4.png" mode="aspectFill"></image>
+      <text>我的</text>
+    </navigator>
+  </view>
+</view>

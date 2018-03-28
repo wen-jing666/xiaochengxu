@@ -1,0 +1,73 @@
+<view class="detail-banner">
+  <image src="http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg" mode="widthFix"></image>
+</view>
+
+<view class="detail-cont">
+  <view class="cont">
+    <view class="cont-head clearfix">
+      <image src="{{images}}/img/head.jpg"></image>
+      <view>名字</view>
+      <view>关注</view>
+    </view>
+    <view class="cont-tlt">这个商品比想象中好</view>
+    <view class="cont-text">商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容</view>
+  </view>
+</view>
+
+<view class="detail-other">
+  <view class="other-cont">
+    <view class="other-tlt">TA的其他心得</view>
+
+    <view class="other-cont-detail clearfix" bindtap='navthisBtn'>
+      <view class="cont-detail-left">
+        <image src="http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg" mode="scaleToFill"></image>
+      </view>
+      <view class="cont-detail-right">
+        <view>这个商品比想象中好</view>
+        <view>商品内容商品内容商商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容</view>
+      </view>
+    </view>
+
+    <view class="other-cont-detail clearfix" bindtap='navthisBtn'>
+      <view class="cont-detail-left">
+        <image src="http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg" mode="scaleToFill"></image>
+      </view>
+      <view class="cont-detail-right">
+        <view>这个商品比想象中好</view>
+        <view>商品内容商品内容商商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容</view>
+      </view>
+    </view>
+
+    <view class="other-cont-detail clearfix" bindtap='navthisBtn'>
+      <view class="cont-detail-left">
+        <image src="http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg" mode="scaleToFill"></image>
+      </view>
+      <view class="cont-detail-right">
+        <view>这个商品比想象中好</view>
+        <view>商品内容商品内容商商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容</view>
+      </view>
+    </view>
+
+    <view class="other-cont-detail clearfix" bindtap='navthisBtn'>
+      <view class="cont-detail-left">
+        <image src="http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg" mode="scaleToFill"></image>
+      </view>
+      <view class="cont-detail-right">
+        <view>这个商品比想象中好</view>
+        <view>商品内容商品内容商商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容商品内容</view>
+      </view>
+    </view>
+
+  </view>
+</view>
+
+<view class="detail-comment">
+  <view class="comment-cont clearfix">
+    <view class="comment-cont-left">
+      <input type='text' placeholder="撩法千万种，评论最有种"></input>
+    </view>
+    <image src="{{images}}/img/icon_jietu.png"></image>
+    <image src="{{images}}/img/icon_pinglun.png"></image>
+    <image src="{{images}}/img/icon_dianzan.png"></image>
+  </view>
+</view>

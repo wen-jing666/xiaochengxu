@@ -1,0 +1,58 @@
+.clearfix {
+  overflow: hidden;
+  zoom: 1;
+}
+
+.release-input{
+  margin-left: 30rpx;
+  height: 100rpx;
+  border-bottom: 1px solid #f8f8f8;
+}
+
+.release-input input{
+  margin-top: 40rpx;
+  width: 100%;
+  font-size: 28rpx;
+}
+
+.release-text{
+  margin-left: 30rpx;
+  height: 340rpx;
+}
+
+.release-text textarea{
+  width: 100%;
+  margin-top: 40rpx;
+  height: 340rpx;
+  font-size: 22rpx;
+}
+
+.release-upload{
+  margin-top: 20rpx;
+  padding-bottom: 35rpx;
+  width: 100%;
+  border-bottom: 1px solid #f8f8f8;
+}
+
+.release-upload view{
+  float: left;
+  margin-left: 20rpx;
+  width: 166rpx;
+  height: 165rpx;
+}
+
+.release-upload view image{
+  width: 166rpx;
+  height: 165rpx;
+}
+
+.release-btn{
+  margin: 45rpx auto 0;
+  width: 90%;
+  height: 90rpx;
+  font-size: 32rpx;
+  color: #FFF;
+  background: #d32e33;
+  text-align: center;
+  line-height: 90rpx;
+}

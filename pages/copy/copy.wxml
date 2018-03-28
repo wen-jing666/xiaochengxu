@@ -1,0 +1,29 @@
+<import src="../../plugin/wxParse/wxParse.wxml"/>
+
+<view class="copy">
+  <view class="copy-content">
+    <view class="copy-summer">{{copydatail.title}}
+    </view>
+  </view>
+
+  <view class="copy-Comefrom">
+    <text class="copy-tran"></text>来自： {{copydatail.articleData.copyfrom}}
+  </view>
+
+  <view class="copy-footer-text">
+    <template is="wxParse" data="{{wxParseData:copy60.nodes}}" />
+  </view>
+
+  <view class="lookinto-footer2">
+    <view class="lookinto-footer-end">...END...</view>
+
+    <view class="lookinto-footer-home">
+      <navigator url="/pages/index/index" open-type="reLaunch">
+        <view class="lookinto-footer-vote">
+          <image src="{{images}}/img/vote_03.jpg"></image>
+        </view>
+        <view class="lookinto-footer-home-vote">回首页</view>
+      </navigator>
+    </view>
+  </view>
+</view>
